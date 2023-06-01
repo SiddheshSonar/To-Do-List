@@ -25,7 +25,7 @@ body {
     flex-direction: column;
     /* margin-top:  */
     /* flex-basis: calc(33.33% - 10px); */
-    margin: 60px 0px;
+    margin-top: 60px;
 }
 
 .card-top {
@@ -77,7 +77,6 @@ body {
     font-weight: 700;
     font-size: 2rem;
     text-align: center;
-    width: 275px;
   }
 
   .title{

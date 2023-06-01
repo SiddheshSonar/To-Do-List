@@ -47,10 +47,11 @@ const ToDoList = () => {
 
     return (
         <div>
-            {!taskList[0] && <div className='empty'>There Are No New Tasks! Be Productive and Add Some Now<LaptopChromebookIcon style={{ fontSize: 50 }} /></div>}
+            {/* {!taskList[0] && <div className='empty'>There Are No New Tasks! Be Productive and Add Some Now<LaptopChromebookIcon style={{ fontSize: 50 }} /></div>} */}
+            {!taskList[0] && <div className='empty'>There Are No New Tasks!</div>}
             <div className='header text-center'>
-                <h4 className='msg'>Stop Being so Lazy and Get Some Work Done Already! <AssignmentIcon style={{ fontSize: 25 }}/></h4>
-                <h2 className='title'>To-Do List</h2>
+                {/* <h4 className='msg'>Stop Being so Lazy and Get Some Work Done Already! <AssignmentIcon style={{ fontSize: 25 }}/></h4> */}
+                <h1 className='title'>To-Do List</h1>
                 <button className='btn btn-primary mt-1' onClick={()=>setModal(true)}>Create Task</button>
             </div>
             <div className='task-container'>
